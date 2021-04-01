@@ -28,3 +28,112 @@ int main()
   int year;
   
 }
+
+/* Step 2: Initialize a Variable
+After we declare a variable, we can give it a value!
+
+Suppose that we have declared an int variable called score, to set it to 0, we can simply write:
+
+score = 0;
+The score is the name of the variable.
+The = indicates assignment.
+The 0 is the value you want to store inside the variable.
+Note: In C++, a single equal sign = does not really mean “equal”. It means “assign”. In the code above, we are assigning the score variable a value of 0.
+
+/*
+
+#include <iostream>
+
+int main() {
+  
+  // Declare a variable   
+  int year;
+  year = 2019;
+  // Initialize a variable
+  
+   
+}
+
+/*
+Combining Step 1 and Step 2
+We can both declare and assign a value to a variable in a single initialization statement.
+
+Suppose we have these two lines:
+
+// Declare a variable
+int score;
+ 
+// Initialize a variable
+score = 0;
+We can actually combine these two lines into a single line of code:
+
+int score = 0;
+This means we are declaring an integer called score and setting it equal to 0.
+
+Note: We only need to declare a variable one time! 
+And it is highly suggested to initialize a variable before using it later.*/
+
+#include <iostream>
+
+int main() {
+
+   int score = 0;
+   int year = 2019;
+   // Declare and initialize a variable here
+   
+   
+   return 0;
+   
+}
+
+/*
+Arithmetic Operators
+Computers are incredible at doing calculations. Now that we have declared variables, let’s use them with arithmetic operators to calculate things!
+
+Here are some arithmetic operators:
+
++ addition
+- subtraction
+* multiplication
+/ division
+% modulo (divides and gives the remainder)
+For example:
+
+int score = 0;
+// score is 0
+ 
+score = 4 + 2;
+// it is now 6
+ 
+score = 4 - 2;
+// it is now 2
+ 
+score = 4 * 2;
+// it is now 8
+ 
+score = 4 / 2;
+// and now 2
+ 
+score = 5 % 2;
+// and now 1
+Note: The order of operations can be specified using parentheses. 
+For example, the use of parentheses in score = 5 * (4 + 3) sets score equal to 5 * 7 rather than 20 + 3.
+*/
+
+#include <iostream>
+
+int main() {
+
+  int score = 0;
+  score = 1234*99;
+  //You can output the value by simply adding this code underneath:
+  std::cout << score << "\n";
+  //Notice how when we want to output a variable, we don’t add double quotes around its name.
+
+
+  
+  
+  
+
+
+}
