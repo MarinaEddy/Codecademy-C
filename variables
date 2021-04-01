@@ -1,0 +1,30 @@
+/* Step 1: Declare a Variable
+"Every variable in C++ must be declared before it can be used!"
+Suppose we are building a game and we want to keep track of a player’s score that goes from 0 to 10. We need a variable!
+
+Before we can use a variable, we must declare, or create, it. To declare a variable, we need to provide two things:
+
+A type for the variable.
+A name for the variable.
+
+int score;
+The int is the type of the variable.
+The score is the name of the variable.
+The ; is how we end a statement.
+
+In C++, variable names consist only of upper/lower case letters, digits, and/or underscores.
+
+Note: C++ is known as a strongly typed language. If you try to give an integer value a decimal number, you are going to get unexpected results, warnings, or errors.
+
+/*
+
+#include <iostream>
+
+int main() 
+{
+
+  // Declare a variable
+  int score;
+  int year;
+  
+}
